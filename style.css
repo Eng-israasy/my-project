@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    color: white;
+
+}
+html{
+        background-color: rgb(65, 77, 86);
+
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+h2{
+    font-size: larger;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: black;
+}
+nav{
+    padding-top: 2.2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 40%;
+
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem  ;
+   
+
+}
+ nav ul li a{
+    text-decoration: none;
+    color:rgb(60, 183, 240);
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+ nav ul li a:hover{
+    color:white;
+    background-color:black;
+}
+h1{
+    font-size: 4.65rem;
+    margin: 1.7rem 0;
+    text-transform: capitalize;
+    font-style:italic;
+}
+h3{
+    font-size: 1.5rem;
+    color:rgb(60, 183, 240);
+
+}
+h4{
+    font-size: 1.25rem;
+    letter-spacing:0.12rem ;
+    color:rgb(60, 183, 240);
+
+}
+h5{
+    font: 1.37rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 5px;
+}
+
+p{
+    color:rgb(60, 183, 240);
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    font-size: 1rem;
+}
+.contiant{
+    flex-grow: 1;
+    padding: 8%;
+    display: flex;
+    align-items: center;
+}
+ .contiant .containar-text{
+    position: relative;
+    bottom: 70px;
+}
+
+
+.social a{
+    text-decoration: none;
+}
+
+.social{
+    margin: 3.5rem;
+}
+.social img{
+    margin-top: -10px;
+    margin-right: 2rem;
+    width: 2.5rem;
+    transition: 0.4s;
+}
+.social img:hover{
+    transform: scale(1.2);
+}
+ #home .containar-images {
+
+    width:50% ;
+    height: 100%;
+    position: relative;
+    left: 300px;
+}
+#home .containar-images img{
+    border: 5px solid rgb(60, 183, 240);
+
+    width: 70%;
+    height: 70%;
+    border-radius: 10%;
+}
+#about{
+    background-color:rgba(0, 0, 0, 0.47);
+
+    padding: 2rem 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#about .containar-images{
+    background-color:rgba(0, 0, 0, 0.47);
+    width:35% ;
+
+}
+#about .containar-images img{
+    border-radius: 10px;
+    border: 5px solid rgb(60, 183, 240);
+    width: 100%;
+    height: 100%;
+}#about .containar-texts{
+
+    width: 35%;
+}
+#services{
+    background-color:rgba(0, 0, 0, 0.47);
+}
+.text-center{
+    text-align: center;
+}
+.box{
+    display: flex;
+justify-content: space-between;
+}
+.card{
+    background-color: rgb(65, 77, 86);
+border: 3px solid rgb(60, 183, 240);
+
+    width: 300px;
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+   
+    animation-name:change ;
+    animation-duration: 6s;
+    transform: rotatey(90deg);
+    animation-iteration-count: infinite;
+    font-size: 3.12rem;
+    text-align: center;
+    margin: 2rem;
+
+
+}
+
+    
+   
+@keyframes change{
+
+    50%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotatey(90deg);
+
+    }
+    }
+
+#section1{
+    background-color:rgba(0, 0, 0, 0.47);
+    margin: 20px;
+   
+    width: 100%;
+    height: 100%;
+    
+}
+.containar-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 8%;
+
+
+}
+
+.image div{
+    display: inline-block;
+    width: 30%;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+.image div img{
+    height: 90px;
+    width: 100px;
+    border-radius: 20%;
+    border: 5px solid rgb(65, 77, 86);
+}
+
+
+
